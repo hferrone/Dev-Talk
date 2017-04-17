@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b2d88a5-1312-448e-bc25-2c6eb5914ecd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RegisterModel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/LoginModel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Templates/Login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller.py" afterPath="$PROJECT_DIR$/Controller.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Templates/MainLayout.html" afterPath="$PROJECT_DIR$/Views/Templates/MainLayout.html" />
@@ -23,10 +23,22 @@
       <file leaf-file-name="Controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="237">
+              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/LoginModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +47,8 @@
       <file leaf-file-name="Register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Templates/Register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -52,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterModel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegisterModel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models/RegisterModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -64,24 +76,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Templates/Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainLayout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/Templates/MainLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="82" />
+            <state relative-caret-position="450">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="64" />
               <folding>
-                <element signature="e#1276#1282#0" expanded="true" />
-                <element signature="e#1282#1288#0" expanded="true" />
+                <element signature="e#1255#1261#0" expanded="true" />
+                <element signature="e#1358#1364#0" expanded="true" />
+                <element signature="e#1364#1370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripty.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scripty.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/scripty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="390">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -104,12 +127,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Views/Templates/Home.html" />
-        <option value="$PROJECT_DIR$/Views/Templates/MainLayout.html" />
-        <option value="$PROJECT_DIR$/static/js/scripty.js" />
         <option value="$PROJECT_DIR$/Models/__init__.py" />
-        <option value="$PROJECT_DIR$/Controller.py" />
         <option value="$PROJECT_DIR$/Models/RegisterModel.py" />
+        <option value="$PROJECT_DIR$/Views/Templates/Login.html" />
+        <option value="$PROJECT_DIR$/Views/Templates/MainLayout.html" />
         <option value="$PROJECT_DIR$/Views/Templates/Register.html" />
+        <option value="$PROJECT_DIR$/Models/LoginModel.py" />
+        <option value="$PROJECT_DIR$/Controller.py" />
+        <option value="$PROJECT_DIR$/static/js/scripty.js" />
       </list>
     </option>
   </component>
@@ -155,14 +180,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev Talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dev Talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,13 +335,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25432757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25432757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -327,6 +369,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Templates/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Templates/MainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="82" />
+          <folding>
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/scripty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/RegisterModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -358,8 +456,9 @@
         <state relative-caret-position="255">
           <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
-            <element signature="e#1276#1282#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -387,8 +486,9 @@
         <state relative-caret-position="600">
           <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           <folding>
-            <element signature="e#1276#1282#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,8 +524,9 @@
         <state relative-caret-position="510">
           <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="e#1276#1282#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,8 +568,9 @@
         <state relative-caret-position="300">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
-            <element signature="e#1276#1282#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/scripty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.6/site-packages/web.py-0.40.dev0-py3.6.egg/web/wsgiserver/wsgiserver3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -537,42 +631,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Templates/MainLayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="82" />
+        <state relative-caret-position="450">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="64" />
           <folding>
-            <element signature="e#1276#1282#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
+            <element signature="e#1255#1261#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#1364#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/Templates/Register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/RegisterModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/LoginModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/scripty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
