@@ -31,9 +31,27 @@ $(document).ready(function() {
                     alert("Could not log in.");
                 } else {
                     console.log("Logged in as", response);
+                    window.location.href = "/";
                 }
             }
         });
+    });
+
+
+    $(document).on('click', '#logout-link', function(e) {
+        e.preventDefault();
+
+        $.ajax({
+            url: '/logout',
+            type: 'GET',
+            success: function(response) {
+                if(response == "logout successful") {
+                    window.location.href = "/";
+                } else {
+                    alert("Something went wrong.");
+                }
+            }
+        })
     });
 });
 
