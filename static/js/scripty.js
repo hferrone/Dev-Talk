@@ -5,8 +5,8 @@ $(document).ready(function() {
 
     $(document).on("submit", "#register-form", function(e) {
         e.preventDefault();
-
         var form = $('#register-form').serialize();
+
         $.ajax({
             url: '/post-registration',
             type: 'POST',
@@ -52,6 +52,21 @@ $(document).ready(function() {
                 }
             }
         })
+    });
+
+
+    $(document).on('submit', '#post-activity', function(e) {
+        e.preventDefault();
+        var form = $(this).serialize();
+
+        $.ajax({
+            url: '/post-activity',
+            type: 'POST',
+            data: form,
+            success: function(response) {
+                console.log(response);
+            }
+        });
     });
 });
 
