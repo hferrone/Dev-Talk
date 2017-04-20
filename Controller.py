@@ -40,7 +40,10 @@ class Home:
         if is_valid:
             session_data["user"] = is_valid
 
-        return render.Home()
+        post_model = Posts.Posts()
+        posts = post_model.get_all_posts()
+
+        return render.Home(posts)
 
 
 class Register:

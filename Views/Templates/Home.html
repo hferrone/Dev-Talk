@@ -1,3 +1,5 @@
+$def with (posts)
+
 
 <div class="container">
     $if session['user'] == None:
@@ -11,4 +13,8 @@
                 </form>
             </div>
         </div>
+
+        $for post in posts:
+            $post['user']['name']
+            $post['content']
 </div>
